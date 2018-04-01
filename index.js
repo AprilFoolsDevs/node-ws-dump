@@ -23,7 +23,7 @@ const connect = () => {
       r.table('data').insert({
         data,
         date: new Date(),
-      });
+      }).run();
     });
 
     ws.on('close', () => {
