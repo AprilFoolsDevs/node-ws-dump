@@ -1,0 +1,13 @@
+{
+    "rethinkdb": {
+		"db": "reddit",
+		"servers": [
+			{
+				"host": "127.0.0.1",
+				"port": 28015
+			}
+		]
+    },
+    "reddit": "https://reddit.com/snake",
+    "websocketKey": "snake_websocket_url"
+}
